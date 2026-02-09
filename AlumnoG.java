@@ -5,6 +5,7 @@ public class AlumnoG{
 	int nota1;
 	int nota2;
 	int nota3;
+	double media;
 
 	public AlumnoG(String nombre, String telefono){
 		this.nombre=nombre;
@@ -20,5 +21,9 @@ public class AlumnoG{
 		System.out.println("Nombre: "+nombre);
 		System.out.println("Telefono: "+telefono);
 		System.out.println("Notas: " +nota1+ ", " +nota2+ ", "+nota3);
-}
+		System.out.println("Media: "+ media);
+	}
+	public void calcularMedia(){
+		media=(nota1+nota2+nota3)/3.0;
+	}
 }

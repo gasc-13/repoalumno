@@ -14,7 +14,8 @@ public class AppAlumnoG {
 
 
         AlumnoG alumno = new AlumnoG(nombre, telefono);
-
+	
+	alumno.calcularMedia();
         alumno.mostrarDatos();
 
         sc.close();
