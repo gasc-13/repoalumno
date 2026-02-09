@@ -12,10 +12,8 @@ public class AppAlumnoG {
         System.out.print("Introduce el teléfono: ");
         String telefono = sc.nextLine();
 
-        System.out.print("Introduce la edad: ");
-        int edad = sc.nextInt();
 
-        AlumnoG alumno = new AlumnoG(nombre, telefono, edad);
+        AlumnoG alumno = new AlumnoG(nombre, telefono);
 
         alumno.mostrarDatos();
 
